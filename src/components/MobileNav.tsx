@@ -10,7 +10,7 @@ const MobileNav = () => {
         setDropDown((prev) => !prev);
       };
   return (
-    <div className="flex flex-col gap-6 p-4 bg-yellow-500 md:hidden h-96">
+    <div className="flex flex-col gap-6 p-4 bg-yellow-300 md:hidden h-96 font-mono font-bold">
          <Link to="/">Rates</Link>
       <Link to="/">Blog</Link>
       <div className="relative">

@@ -1,7 +1,7 @@
 import { useState } from "react";
 import { motion } from "framer-motion";
 import MobileNav from "./MobileNav";
-import mainLogo from "../asset/Preview.png"; // Replace with your logo
+import mainLogo from "../asset/gomobile_logo.png"; // Replace with your logo
 import NavList from "./NavList";
 
 const NavBar = () => {
@@ -18,9 +18,9 @@ const NavBar = () => {
         <motion.img
           src={mainLogo}
           alt="GoMobilez Logo"
-          className="w-12 h-12 object-contain rounded-full border-2 border-white shadow-lg"
-          animate={{ rotate: 360 }}
-          transition={{ repeat: Infinity, duration: 5, ease: "linear" }}
+          className="w-16 h-14 object-contain rounded-full shadow-lg"
+          // animate={{ rotate: 360 }}
+          // transition={{ repeat: Infinity, duration: 5, ease: "linear" }}
         />
         <h2 className="text-2xl font-bold text-white hidden sm:block">GoMobilez</h2>
       </div>

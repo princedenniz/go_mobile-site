@@ -83,11 +83,70 @@ const Home = () => {
         </div>
       </section>
 
+      {/* Subscription Section */}
+<section className="bg-yellow-300 text-gray-800 py-16 px-6 md:px-16">
+  <div className="max-w-5xl mx-auto text-center">
+    <h3 className="text-3xl font-bold mb-8">Choose Your Plan</h3>
+    <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
+      
+      {/* Pay As You Go */}
+      <motion.div 
+        className="border border-gray-300 p-6 rounded-lg shadow-lg bg-white"
+        whileHover={{ scale: 1.05 }}
+        transition={{ duration: 0.3 }}
+      >
+        <h4 className="text-2xl font-semibold mb-4 text-yellow-600">Pay As You Go</h4>
+        <p className="text-lg opacity-80 mb-4 font-serif">
+          Only pay for the minutes you use. Perfect for occasional callers.
+        </p>
+        <p className="text-xl font-bold mb-4">$0.05 / Minute</p>
+        <button className="bg-yellow-600 text-white py-2 px-4 rounded hover:bg-yellow-700 transition">
+          Get Started
+        </button>
+      </motion.div>
+      
+      {/* Standard Subscription */}
+      <motion.div 
+        className="border border-gray-300 p-6 rounded-lg shadow-lg bg-white"
+        whileHover={{ scale: 1.05 }}
+        transition={{ duration: 0.3 }}
+      >
+        <h4 className="text-2xl font-semibold mb-4 text-yellow-600">Standard Subscription</h4>
+        <p className="text-lg opacity-80 mb-4 font-serif">
+          Unlimited local and international calls for frequent users.
+        </p>
+        <p className="text-xl font-bold mb-4">$19.99 / Month</p>
+        <button className="bg-yellow-600 text-white py-2 px-4 rounded hover:bg-yellow-700 transition">
+          Subscribe Now
+        </button>
+      </motion.div>
+      
+      {/* Premium Subscription */}
+      <motion.div 
+        className="border border-gray-300 p-6 rounded-lg shadow-lg bg-white"
+        whileHover={{ scale: 1.05 }}
+        transition={{ duration: 0.3 }}
+      >
+        <h4 className="text-2xl font-semibold mb-4 text-yellow-600">Premium Subscription</h4>
+        <p className="text-lg opacity-80 mb-4 font-serif">
+          Unlimited calls, priority support, and exclusive features.
+        </p>
+        <p className="text-xl font-bold mb-4">$29.99 / Month</p>
+        <button className="bg-yellow-600 text-white py-2 px-4 rounded hover:bg-yellow-700 transition">
+          Go Premium
+        </button>
+      </motion.div>
+
+    </div>
+  </div>
+</section>
+
+
       {/* About Us Section */}
       <section className="bg-yellow-200 text-gray-800 py-16 px-6 md:px-16 flex items-center justify-center min-h-screen">
   <div className="max-w-5xl text-center">
     <h3 className="text-3xl font-bold mb-8">About GoMobilez</h3>
-    <p className="text-lg opacity-80 mb-8 font-serif">
+    <p className="text-lg opacity-80 mb-8 font-serif text-black">
       GoMobilez is your trusted partner for affordable international calling and seamless remittance services. With a commitment to keeping you connected, we provide high-quality calls at unbeatable rates, ensuring you can “Talk More, Spend Less.”
       <br /><br />
       Our platform is designed for simplicity and convenience, allowing you to stay in touch with loved ones across the globe without breaking the bank. Whether you’re making a quick call or sending money back home, GoMobilez offers reliable solutions you can count on.
@@ -103,20 +162,20 @@ const Home = () => {
 
       {/* Footer Section */}
       <footer className="bg-yellow-100 text-gray-800 py-6 w-full font-serif">
-        <div className="flex flex-col md:flex-row justify-between items-center px-6 md:px-12">
+        <div className="flex flex-col text-center md:flex-row justify-between items-center px-6 md:px-12">
           <div className="mb-4 md:mb-0">
             <h4 className="text-xl font-bold text-yellow-600">GoMobilez</h4>
-            <p className="text-sm text-gray-600">Talk More, Spend Less.</p>
+            <p className="text-sm text-black">Talk More, Spend Less.</p>
           </div>
           <div className="flex gap-6">
-            <a href="#features" className="text-gray-600 hover:text-yellow-600">Features</a>
-            <a href="#about" className="text-gray-600 hover:text-yellow-600">About</a>
-            <a href="#gallery" className="text-gray-600 hover:text-yellow-600">Gallery</a>
-            <a href="#contact" className="text-gray-600 hover:text-yellow-600">Contact</a>
+            <a href="#features" className="text-black hover:text-yellow-600">Features</a>
+            <a href="#about" className="text-black hover:text-yellow-600">About</a>
+            <a href="#gallery" className="text-black hover:text-yellow-600">Gallery</a>
+            <a href="#contact" className="text-black hover:text-yellow-600">Contact</a>
           </div>
         </div>
-        <div className="mt-4 text-center text-sm text-gray-600">
-          <p>&copy; 2024 Go-Mobile. All rights reserved.</p>
+        <div className="mt-4 text-center text-sm text-black">
+          <p>&copy; 2024 Go-Mobilez. All rights reserved.</p>
         </div>
       </footer>
     </div>

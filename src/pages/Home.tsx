@@ -113,7 +113,7 @@ const Home = () => {
       >
         <h4 className="text-2xl font-semibold mb-4 text-yellow-600">Standard Subscription</h4>
         <p className="text-lg opacity-80 mb-4 font-serif">
-          Unlimited local and international calls for frequent users.
+        Unlimited 1-hour calls every day for 30 day.
         </p>
         <p className="text-xl font-bold mb-4">$19.99 / Month</p>
         <button className="bg-yellow-600 text-white py-2 px-4 rounded hover:bg-yellow-700 transition">
@@ -129,7 +129,7 @@ const Home = () => {
       >
         <h4 className="text-2xl font-semibold mb-4 text-yellow-600">Premium Subscription</h4>
         <p className="text-lg opacity-80 mb-4 font-serif">
-          Unlimited calls, priority support, and exclusive features.
+        Unlimited 3-hours of calls   Every day for 30 days.
         </p>
         <p className="text-xl font-bold mb-4">$29.99 / Month</p>
         <button className="bg-yellow-600 text-white py-2 px-4 rounded hover:bg-yellow-700 transition">

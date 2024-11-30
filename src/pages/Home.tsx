@@ -1,6 +1,9 @@
 import { motion } from "framer-motion"; // Import Framer Motion
 import image1 from "../asset/PngItem_5202957.png";
 import image2 from "../asset/Calling-Transparent-Background.png"; 
+import image3 from "../asset/img76.png"
+import image4 from "../asset/man-calling-img.png"
+import image6 from "../asset/img45.png"
 import downloadStore from "../asset/google.svg";
 import appleStore from "../asset/apple.svg";
 
@@ -51,7 +54,7 @@ const Home = () => {
               whileHover={{ scale: 1.05 }}
               transition={{ duration: 0.3 }}
             >
-              <img src={image1} alt="Feature 1" className="w-20 h-20 mb-4 rounded-full" />
+              <img src={image6} alt="Feature 1" className="w-20 h-20 mb-4 rounded-full" />
               <h4 className="text-xl font-semibold mb-2">High-Quality Calls</h4>
               <p className="text-lg opacity-80 font-serif">
                 Enjoy crystal-clear voice quality on every call, regardless of where you’re calling.
@@ -73,7 +76,7 @@ const Home = () => {
               whileHover={{ scale: 1.05 }}
               transition={{ duration: 0.3 }}
             >
-              <img src={image1} alt="Feature 3" className="w-20 h-20 mb-4 rounded-full" />
+              <img src={image3} alt="Feature 3" className="w-23 h-20 mb-4 rounded-full" />
               <h4 className="text-xl font-semibold mb-2">Global Coverage</h4>
               <p className="text-lg opacity-80 font-serif">
                 Connect to friends, family, and colleagues in over 200+ countries across the globe.
@@ -99,7 +102,7 @@ const Home = () => {
         <p className="text-lg opacity-80 mb-4 font-serif">
           Only pay for the minutes you use. Perfect for occasional callers.
         </p>
-        <p className="text-xl font-bold mb-4">8 <b className="text-sm">cent</b> / Minute</p>
+        <p className="text-xl font-bold mb-4">8<b className="text-sm">&cent;</b> / Minute</p>
         <button className="bg-yellow-600 text-white py-2 px-4 rounded hover:bg-yellow-700 transition">
           Get Started
         </button>
@@ -115,7 +118,7 @@ const Home = () => {
         <p className="text-lg opacity-80 mb-4 font-serif">
         Unlimited 1-hour calls every day for 30 day.
         </p>
-        <p className="text-xl font-bold mb-4">$25.99 / Month</p>
+        <p className="text-xl font-bold mb-4"><b className="text-sm">&#36;</b>24.99 / Month</p>
         <button className="bg-yellow-600 text-white py-2 px-4 rounded hover:bg-yellow-700 transition">
           Subscribe Now
         </button>
@@ -131,7 +134,7 @@ const Home = () => {
         <p className="text-lg opacity-80 mb-4 font-serif">
         Unlimited 3-hours of calls   Every day for 30 days.
         </p>
-        <p className="text-xl font-bold mb-4">$40.99 / Month</p>
+        <p className="text-xl font-bold mb-4"><b className="text-sm">&#36;</b>39.99 / Month</p>
         <button className="bg-yellow-600 text-white py-2 px-4 rounded hover:bg-yellow-700 transition">
           Go Premium
         </button>
@@ -154,7 +157,7 @@ const Home = () => {
       Join the growing GoMobilez family and experience the freedom of staying connected wherever you are. Go farther, call longer, and save more with GoMobilez.
     </p>
     <div>
-      <img src={image2} alt="About GoMobilez" className="w-full max-w-3xl mx-auto rounded-lg shadow-xl" />
+      <img src={image4} alt="About GoMobilez" className="w-full max-w-3xl mx-auto rounded-lg shadow-xl" />
     </div>
   </div>
 </section>
@@ -162,7 +165,7 @@ const Home = () => {
 
       {/* Footer Section */}
       <footer className="bg-yellow-100 text-gray-800 py-6 w-full font-serif">
-        <div className="flex flex-col text-center md:flex-row justify-between items-center px-6 md:px-12">
+        {/* <div className="flex flex-col text-center md:flex-row justify-between items-center px-6 md:px-12">
           <div className="mb-4 md:mb-0">
             <h4 className="text-xl font-bold text-yellow-600">GoMobilez</h4>
             <p className="text-sm text-black">Talk More, Spend Less.</p>
@@ -173,7 +176,7 @@ const Home = () => {
             <a href="#gallery" className="text-black hover:text-yellow-600">Gallery</a>
             <a href="#contact" className="text-black hover:text-yellow-600">Contact</a>
           </div>
-        </div>
+        </div> */}
         <div className="mt-4 text-center text-sm text-black">
           <p>&copy; 2024 Go-Mobilez. All rights reserved.</p>
         </div>

@@ -99,7 +99,7 @@ const Home = () => {
         <p className="text-lg opacity-80 mb-4 font-serif">
           Only pay for the minutes you use. Perfect for occasional callers.
         </p>
-        <p className="text-xl font-bold mb-4">$0.05 / Minute</p>
+        <p className="text-xl font-bold mb-4">8 <b className="text-sm">cent</b> / Minute</p>
         <button className="bg-yellow-600 text-white py-2 px-4 rounded hover:bg-yellow-700 transition">
           Get Started
         </button>
@@ -115,7 +115,7 @@ const Home = () => {
         <p className="text-lg opacity-80 mb-4 font-serif">
         Unlimited 1-hour calls every day for 30 day.
         </p>
-        <p className="text-xl font-bold mb-4">$19.99 / Month</p>
+        <p className="text-xl font-bold mb-4">$25.99 / Month</p>
         <button className="bg-yellow-600 text-white py-2 px-4 rounded hover:bg-yellow-700 transition">
           Subscribe Now
         </button>
@@ -131,7 +131,7 @@ const Home = () => {
         <p className="text-lg opacity-80 mb-4 font-serif">
         Unlimited 3-hours of calls   Every day for 30 days.
         </p>
-        <p className="text-xl font-bold mb-4">$29.99 / Month</p>
+        <p className="text-xl font-bold mb-4">$40.99 / Month</p>
         <button className="bg-yellow-600 text-white py-2 px-4 rounded hover:bg-yellow-700 transition">
           Go Premium
         </button>
